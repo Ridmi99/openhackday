@@ -1,6 +1,52 @@
 <html>
 <head>
+<style>
+    body {
+        background-color: gray;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+    }
+    th {
+        background-color: white;
+    }
+    tr:nth-child(odd) {
+        background-color: yellow;
+    }
+    tr:nth-child(even) {
+        background-color: white;
+    }
+    tr:nth-child(1) {
+        background-color: white;
+    }
+    tr:nth-child(6) {
+        background-color: blue;
+    }
+    tr:nth-child(10) {
+        background-color: green;
+    }
+    h1 {
+        text-align: center;
+        text-decoration: underline;
+        color: white;
+    }
+    caption {
+        text-align: center;
+    }
+    a {
+        color: red;
+        text-decoration: none;
+    }
+</style>
 <caption><h1><font face color="white"><u> Timetable</u></font></h1></caption>
+</head>
 <body bgcolor="gray">
 <table bgcolor="yellow" border ="1px ">
 <tr bgcolor="white">
